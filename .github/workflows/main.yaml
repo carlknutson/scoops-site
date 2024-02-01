@@ -1,0 +1,26 @@
+name: Deploy cookbook
+
+on:
+  push:
+    branches:
+      - 'main'
+permissions:
+  contents: write
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Use Node 20.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20.x'
+      - name: Install and build
+        run: npm install && npm run gh-build && cp dist/ninja-creami-cookbook/browser/index.html dist/ninja-creami-cookbook/browser/404.html
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4.5.0
+        with:
+          branch: gh-pages
+          folder: dist/ninja-creami-cookbook/browser/
