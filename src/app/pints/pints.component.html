@@ -1,0 +1,11 @@
+<div>
+    <button *ngFor="let pint of pints" class="pint-button" routerLink="/{{pint.pintType}}/{{pint.urlName}}">
+        <mat-card class="example-card" >
+            <mat-card-header>
+            <mat-card-title>{{pint.name}}</mat-card-title>
+            <mat-card-subtitle>{{getPintTypeCardLabel(pint.pintType)}}</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-image src={{getImageUrl(pint.pintType,pint.urlName)}} alt="image of {{pint.name}}" class="pint-image">
+        </mat-card>
+    </button>
+</div>
