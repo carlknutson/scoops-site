@@ -1,0 +1,26 @@
+name: Easy Les Tres
+version: 1
+referenceUrls: 
+  - https://www.icecreamscience.com/blog/ninja-creami-nc30-easy-no-cook-tres-leches-recipe
+creamiProductType: deluxe
+ingredients:
+  - 277 g, cream
+  - 265 g, whole milk
+  - 247 g, condensed milk
+steps:
+  - The values of the ingredients were calculated by the spreadsheet tool within the source recipe.
+  - Mix all ingredients with an immersion blender.
+  - Pour into pint, up to the max fill line, and freeze for 24 hours.
+  - Take the pint out of freezer, let sit out on the counter for 5 mins.
+  - Run sides under hot water for 15 secs.
+  - Install pint, choose Ice Cream and spin the pint.
+notes:
+  - date: 02/16/24
+    version: 1
+    # versionLink: 
+    text: This pint melted fast - 5 mins on the counter may be too long. It may be worth putting in freezer to rechill after processing. Little to no ice in texture. Taste was light - however left a thick fat taste in mouth after eating. I want to try this recipe again with 2% milk.
+score:
+  texture: 39
+  flavor: 37
+
+
