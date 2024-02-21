@@ -7,7 +7,7 @@
     width: 50%
 }
 
-#card-content div {
+#card-content {
     padding-top: 10px;
 }
 
@@ -33,3 +33,12 @@
     overflow: hidden;
 }
 
+#steps {
+    background-color: #279eff28;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+#product {
+    padding-top: 15px;
+}

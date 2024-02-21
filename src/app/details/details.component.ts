@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { parse } from 'yamljs';
 import { HttpClient } from '@angular/common/http';
@@ -16,7 +16,7 @@ import {create, all} from 'mathjs'
 @Component({
   selector: 'app-details',
   standalone: true,
-  imports: [CommonModule, MatIconModule, MatCardModule, MatSelectModule, MatListModule, MatButtonToggleModule, MatChipsModule],
+  imports: [CommonModule, MatIconModule, MatCardModule, MatSelectModule, MatListModule, MatButtonToggleModule, MatChipsModule, RouterLink],
   providers: [HttpClient],
   templateUrl: './details.component.html',
   styleUrl: './details.component.css'
@@ -75,7 +75,8 @@ export class DetailsComponent implements OnInit {
       "c",
       "tsp",
       "oz",
-      "tbsp"
+      "tbsp",
+      "g"
     ]
 
     const convertedList = []
@@ -157,12 +158,21 @@ export class DetailsComponent implements OnInit {
   getPintTypeCardLabel(pintType: PintType){
     if (pintType == PintType.iceCream) {
       return "Ice Cream"
+    } else if (pintType == PintType.sorbet) {
+      return "Sorbet"
     }
-    return "Ice Cream"
+    return pintType
   }
   
   getChipListValue(chipEvent: any) {
     this.selectedNinjaProduct = chipEvent.value
+  }
+
+  calculateScore(): number|undefined {
+    if (this.pintDetails?.score) {
+      return this.pintDetails.score.flavor + this.pintDetails.score.texture
+    }
+    return undefined
   }
 }
 

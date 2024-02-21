@@ -1,18 +1,18 @@
 <mat-card class="example-card" >
     <mat-card-header>
         <mat-card-title>{{pintDetails?.name}} </mat-card-title>
-        <mat-card-subtitle>{{getPintTypeCardLabel(pintType)}} - version: {{pintDetails?.version}}</mat-card-subtitle>
+        <mat-card-subtitle>{{getPintTypeCardLabel(pintType)}} - Version: {{pintDetails?.version}}</mat-card-subtitle>
     </mat-card-header>
     <div id="details-image-container">
         <img mat-card-image src={{getImageUrl(pintType,pintName)}} alt="image of {{pintName}}" id="details-image">
     </div>
     <mat-button-toggle-group #group="matButtonToggleGroup" name="fontStyle" aria-label="Font Style" value="ingredients">
-        <mat-button-toggle class="button-toggle" value="ingredients">Ingredients</mat-button-toggle>
-        <mat-button-toggle class="button-toggle" value="steps">Steps</mat-button-toggle>
-        <mat-button-toggle class="button-toggle" value="notes">Notes</mat-button-toggle>
+        <mat-button-toggle class="button-toggle" value="ingredients">Recipe</mat-button-toggle>
+        <mat-button-toggle class="button-toggle" value="notes">Spin History</mat-button-toggle>
     </mat-button-toggle-group>
     <mat-card-content id="card-content">
         <div *ngIf="group.value === 'ingredients'">
+            <mat-card-subtitle *ngIf="pintDetails?.score">Score: {{calculateScore()}} - Flavor: {{pintDetails?.score?.flavor}}/50 - Texture: {{pintDetails?.score?.texture}}/50</mat-card-subtitle>
             <div id="product">
                 <mat-card-subtitle *ngIf="!selectedNinjaProduct">
                     Choose your Ninja Creami Product: 
@@ -33,26 +33,21 @@
                     {{ingredient}}
                 </mat-list-item>
             </mat-list>
-        </div>
-        <div *ngIf="group.value === 'steps'">
-            <mat-list role="list">
-                <mat-list-item role="listitem" *ngFor="let step of pintDetails?.steps">
-                    {{step}}
-                </mat-list-item>
-            </mat-list>
+            <div id="steps">
+                <p *ngFor="let step of pintDetails?.steps; index as i">
+                    {{i + 1}}. {{step}}
+                </p>
+            </div>
+            <mat-card-title *ngIf="pintDetails?.referenceUrls?.length">Source(s)</mat-card-title>
+            <p *ngFor="let url of pintDetails?.referenceUrls">
+                <a href="{{url}}" target="_blank" rel="noopener noreferrer">{{url}}</a>
+            </p>
         </div>
         <div *ngIf="group.value === 'notes'">
-            <mat-card-subtitle *ngIf="pintDetails?.referenceUrls?.length">Reference URLs</mat-card-subtitle>
-            <mat-list role="list">
-                <mat-list-item role="listitem" *ngFor="let url of pintDetails?.referenceUrls">
-                    <a href="{{url}}" target="_blank" rel="noopener noreferrer">{{url}}</a>
-                </mat-list-item>
-            </mat-list>
-            <mat-card-title *ngIf="pintDetails?.revisions?.length">Revisions</mat-card-title> 
-            <ul>
-                <li *ngFor="let step of pintDetails?.revisions">
-                    {{step}}
-                </li>
-            </ul>
+            <p *ngFor="let note of pintDetails?.notes">
+                [{{note.date}}]
+                <a href="{{note.versionLink}}" target="_blank" rel="noopener noreferrer">[version: {{note.version}}] </a>
+                : {{note.text}}
+            </p>
         </div>
     </mat-card-content>

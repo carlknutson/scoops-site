@@ -1,0 +1,21 @@
+name: Canned Peaches
+version: 1
+referenceUrls: 
+  - https://ninjatestkitchen.com/recipe/easy-peach-sorbet/
+creamiProductType: original
+ingredients:
+  - 15 oz, canned peaches (in juice)
+steps:
+  - Using an immersion blender, blend the canned peaches.
+  - Pour into pint and freeze for 24 hours.
+  - Take the pint out of freezer, let sit out on the counter for 15 mins.
+  - Run sides of pint under hot water for 30 secs.
+  - Install pint, choose SORBET and spin.
+notes:
+  - date: 02/03/24
+    version: 1
+    # versionLink:
+    text: The sourced recipe uses 20 oz canned peaches, should increase the amount next time around. Would like to add stevia in next spin to improve sweetness.
+score:
+  texture: 35
+  flavor: 28

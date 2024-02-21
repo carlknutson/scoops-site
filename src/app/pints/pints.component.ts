@@ -23,7 +23,9 @@ export class PintsComponent {
   getPintTypeCardLabel(pintType: PintType){
     if (pintType == PintType.iceCream) {
       return "Ice Cream"
+    } else if (pintType == PintType.sorbet) {
+      return "Sorbet"
     }
-    return "Ice Cream"
+    return pintType
   }
 }

@@ -2,15 +2,19 @@ name: Classic Vanilla
 version: 1
 referenceUrls: 
   - https://ninjatestkitchen.com/recipe/vanilla-ice-cream-with-chocolate-chips/
-revisions: []
 creamiProductType: deluxe
 ingredients:
-  - 1 1/2 tbsp, cream cheese
+  - 1 1/2 tbsp, whipped cream cheese
   - 1/2 c, granulated sugar
   - 1 1/2 tsp, vanilla extract
   - 1 c + 2 tbsp, heavy cream
   - 1 1/2 c, whole milk
 steps:
-  - 1. Soften cream cheese
-  - 2. Mix all ingredients
-  - 3. Pour into pint and freeze
+  - Soften cream cheese
+  - Mix all ingredients
+  - Pour into pint and freeze
+notes:
+  - date: 02/10/24
+    version: 1
+    # versionLink: 
+    text: Not going to score. Ended up being very soupy - spun too many times - along with allowing to sit out for too long. We will attempt this recip again - with real cream cheese and a shorter wait out period on the counter.

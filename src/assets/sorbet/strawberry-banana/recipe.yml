@@ -1,0 +1,22 @@
+name: Strawberry Banana
+version: 1
+referenceUrls: 
+  - https://ninjatestkitchen.com/recipe/fresh-fruit-banana-sorbet/
+creamiProductType: original
+ingredients:
+  - 3, bananas
+  - 2, strawberries 
+steps:
+  - Using an immersion blender, blend bananas and strawberries until pulverized.
+  - Pour mixed fruit into pint to the MAX FILL line.
+  - Freeze for 24 hours.
+  - Take the pint out of freezer, let sit out on the counter for 15 mins.
+  - Install pint, spin on SORBET.
+notes:
+  - date: 01/26/24
+    version: 1
+    # versionLink:
+    text:  I found a re-spin unnecessary. Next time would consider increasing strawberry count to enhance flavor. Also would consider running sides of pint under hot water to attempt to cut down on ice build-up.
+score:
+  texture: 26
+  flavor: 28
