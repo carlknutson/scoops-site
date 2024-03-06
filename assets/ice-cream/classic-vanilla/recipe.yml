@@ -1,20 +1,30 @@
 name: Classic Vanilla
-version: 1
+version: 2
 referenceUrls: 
   - https://ninjatestkitchen.com/recipe/vanilla-ice-cream-with-chocolate-chips/
 creamiProductType: deluxe
 ingredients:
-  - 1 1/2 tbsp, whipped cream cheese
+  - 1 1/2 tbsp, cream cheese
   - 1/2 c, granulated sugar
   - 1 1/2 tsp, vanilla extract
-  - 1 c + 2 tbsp, heavy cream
-  - 1 1/2 c, whole milk
+  - 3/4 c, heavy cream
+  - 2 c, 2% Milk
 steps:
-  - Soften cream cheese
-  - Mix all ingredients
-  - Pour into pint and freeze
+  - Soften cream cheese.
+  - Mix all ingredients with an immersion blender.
+  - Pour into pint, up to the max fill line, and freeze for 24 hours.
+  - Take the pint out of freezer and immediately run sides under hot water for 15 secs.
+  - Install pint, choose Ice Cream, and spin.
+  - Pint was crumbly, required a re-spin.
 notes:
+  - date: 03/02/24
+    version: 2
+    # versionLink: 
+    text: Ran out of heavy cream while making recipe - increased 2% milk used. Icey. Next time try v1 ingredients and increase vanilla.
   - date: 02/10/24
     version: 1
-    # versionLink: 
+    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/ice-cream/classic-vanilla/recipe.yml
     text: Not going to score. Ended up being very soupy - spun too many times - along with allowing to sit out for too long. We will attempt this recip again - with real cream cheese and a shorter wait out period on the counter.
+score:
+  texture: 25
+  flavor: 28
