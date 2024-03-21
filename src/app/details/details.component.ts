@@ -160,6 +160,8 @@ export class DetailsComponent implements OnInit {
       return "Ice Cream"
     } else if (pintType == PintType.sorbet) {
       return "Sorbet"
+    } else if (pintType == PintType.milkShake) {
+      return "Milk Shake"
     }
     return pintType
   }

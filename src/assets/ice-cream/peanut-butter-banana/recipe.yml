@@ -1,5 +1,5 @@
 name: Peanut Butter Banana
-version: 2
+version: 3
 referenceUrls: 
   - https://www.reddit.com/r/Volumeeating/comments/trsmp3/peanut_butter_banana_ice_cream_in_the_ninja/?utm_source=share&utm_medium=web2x&context=3
 creamiProductType: original
@@ -10,8 +10,8 @@ ingredients:
   - 1/4 tsp, vanilla
   - 1 c, 2% milk
   - 1, pinch of salt
-  - 1/4 c, semi-sweet mini chocolate chips
-  - 2 tbsp, Peanut Butter
+  - 1/4 c, dark chocolate chips
+  - 4 tbsp, Peanut Butter
 steps:
   - Mix all ingredients with an immersion blender, except for chocolate chips.
   - Pour into pint and freeze for 24 hours.
@@ -22,9 +22,13 @@ steps:
   - Use a spoon to create a hole to the bottom of the pint, add pb and chocolate chip mixture.
   - Install pint and choose MIX-IN spin.
 notes:
+  - date: 03/09/24
+    version: 3
+    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/main/src/assets/ice-cream/peanut-butter-banana/recipe.yml
+    text: Extra peanut butter improved texture and taste. Dark chocolate did not pair well, milk chocolate best for next time.
   - date: 03/03/24
     version: 2
-    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/main/src/assets/ice-cream/peanut-butter-banana/recipe.yml
+    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/eecd6be077977b327e26c4ab1ca53e5e411ec27b/src/assets/ice-cream/peanut-butter-banana/recipe.yml
     text: Slightly icey. Next time increase amount of peanut butter mix-in. Use non-mini chocolate chips. Swap banana creme pudding with another non-flavored binder. 
   - date: 02/19/24
     version: 1

@@ -35,5 +35,20 @@ export const PINTS: Pint[] = [
       name: 'Peanut Butter Banana',
       urlName: 'peanut-butter-banana',
       pintType: PintType.iceCream,
-    }
+    },
+    {
+      name: 'High Protein PB Chocolate Banana',
+      urlName: 'high-protein-pb-chocolate-banana',
+      pintType: PintType.iceCream,
+    },
+    {
+      name: 'Light Chocolate',
+      urlName: 'light-chocolate',
+      pintType: PintType.iceCream,
+    },
+    {
+      name: 'Shamrock',
+      urlName: 'shamrock',
+      pintType: PintType.milkShake,
+    },
 ]

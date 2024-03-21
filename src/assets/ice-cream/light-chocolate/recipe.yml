@@ -1,0 +1,28 @@
+name: Light Chocolate
+version: 1
+referenceUrls: 
+  - https://www.youtube.com/watch?v=YyNNWmWGtI4&t=496s
+creamiProductType: original
+ingredients:
+  - 440 g, 2% milk
+  - 2 g, vanilla extract
+  - 50 g, Swerve
+  - 8 g, cocoa powder
+  - 1 g, salt
+  - 1 g, xanthan gum
+steps:
+  - Mix all dry ingredients in bowl.
+  - Add wet ingredients into high sided mixing container.
+  - Using an immersion blender, slowly pour in dry ingredients into the wet container.
+  - Pour into pint, up to the max fill line, and freeze for 24 hours.
+  - Take the pint out of freezer, let sit out on the counter for 5 mins.
+  - Run sides under hot water for 30 secs.
+  - Install pint, choose LIGHT ICE CREAM and spin. Required one re-spin.
+notes:
+  - date: 03/14/24
+    version: 1
+    # versionLink:
+    text: Try decreasing Swerve in next batch. This was a winner.
+score:
+  texture: 35
+  flavor: 39
