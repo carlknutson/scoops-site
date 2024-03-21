@@ -29,7 +29,8 @@ export interface PintDetails {
 
 export enum PintType {
     iceCream = "ice-cream",
-    sorbet = "sorbet"
+    sorbet = "sorbet",
+    milkShake = "milk-shake"
 }
 
 export enum CreamiProductType {

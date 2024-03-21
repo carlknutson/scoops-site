@@ -1,0 +1,26 @@
+name: High Protein PB Chocolate Banana
+version: 1
+# referenceUrls: 
+creamiProductType: deluxe
+ingredients:
+  - 1, banana
+  - 1/4 tsp, xanthan gum
+  - 1 tsp, cocoa powder
+  - 3 tbsp, Pb Fit
+  - 1, 16 oz fairlife chocolate protein shake
+steps:
+  - Mix all ingredients with an immersion blender, except portein shake.
+  - Pour ingredients up to max fill line.
+  - Take the pint out of freezer, let sit out on the counter for 5 mins.
+  - Run sides under hot water for 30 secs.
+  - Install pint, choose Light Ice Cream and spin the pint. (Was still powdery, so did one re-spin).
+notes:
+  - date: 03/13/24
+    version: 1
+    # versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/ice-cream/peanut-butter-banana/recipe.yml
+    text: Increase amount of banana and pb fit.
+score:
+  texture: 36
+  flavor: 20
+
+

@@ -1,0 +1,25 @@
+name: Shamrock
+version: 1
+referenceUrls: 
+  - https://forktospoon.com/ninja-creami-shamrock-shake
+creamiProductType: deluxe
+ingredients:
+  - 2 c, vanilla ice cream
+  - 1 c, 2% milk
+  - 1 tsp, mint extract
+  - 4, drops green food dye
+  - 1/4 c, whipped topping
+steps:
+  - Scoop the vanilla ice cream into an empty Ninja Creami pint.
+  - Add the remaining ingredients into the pint (except for the whipped topping).
+  - Install the pint into the Ninja Creami machine and choose MILKSHAKE setting.
+  - Pour the processed pint into two glasses.
+  - Top the glasses with the whipped topping.
+notes:
+  - date: 03/16/24
+    version: 1
+    # versionLink:
+    text: Attempt a mix-in of something like crushed girl scout peppermint cookies.
+score:
+  texture: 45
+  flavor: 35
