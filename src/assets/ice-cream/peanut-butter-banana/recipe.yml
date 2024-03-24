@@ -10,21 +10,23 @@ ingredients:
   - 1/4 tsp, vanilla
   - 1 c, 2% milk
   - 1, pinch of salt
-  - 1/4 c, dark chocolate chips
-  - 4 tbsp, Peanut Butter
+  - 8, Reese's Thins
 steps:
   - Mix all ingredients with an immersion blender, except for chocolate chips.
   - Pour into pint and freeze for 24 hours.
   - Take the pint out of freezer, let sit out on the counter for 5 mins.
   - Run sides under hot water for 30 secs.
   - Install pint, choose Light Ice Cream and spin the pint. (Was still powdery, so did one re-spin).
-  - Mix peanut butter and chocolate chips in a bowl.
-  - Use a spoon to create a hole to the bottom of the pint, add pb and chocolate chip mixture.
+  - Use a spoon to create a hole to the bottom of the pint, add Reese's Thins.
   - Install pint and choose MIX-IN spin.
 notes:
+  - date: 03/23/24
+    version: 4
+    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/main/src/assets/ice-cream/peanut-butter-banana/recipe.yml
+    text: Instead of Peanut Butter, tried Reese's Thins. Next time, add back pb. Thins were good, but actual cups may be better.
   - date: 03/09/24
     version: 3
-    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/main/src/assets/ice-cream/peanut-butter-banana/recipe.yml
+    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/30ce4c0612dd673aba331ac6884460afcdf0e24a/src/assets/ice-cream/peanut-butter-banana/recipe.yml
     text: Extra peanut butter improved texture and taste. Dark chocolate did not pair well, milk chocolate best for next time.
   - date: 03/03/24
     version: 2
