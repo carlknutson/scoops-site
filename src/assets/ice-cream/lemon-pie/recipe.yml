@@ -1,0 +1,26 @@
+name: Lemon Pie
+version: 1
+# referenceUrls: 
+creamiProductType: original
+ingredients:
+  - 1 tsp, vanilla extract
+  - 1/2 c, heavy cream
+  - 3/4 c, 2% milk
+  - 1/2 tsp, xanthan gum
+  - 2 tbsp, vanilla pudding mix
+  - 3/4 c, lemon pie filling
+  - 5, graham cracker squares
+steps:
+  - Mix all ingredients with an immersion blender, except the graham crackers.
+  - Pour into pint, up to the max fill line, and freeze for 24 hours.
+  - Take the pint out of freezer and immediately run sides under hot water for 15 secs.
+  - Install pint, choose Ice Cream, and spin.
+  - Break up crackers, make hole in pint, install pint and choose MIX-IN setting.
+notes:
+  - date: 
+    version: 1
+    # versionLink: 
+    text: Too much vanilla flavor.
+  score:
+    texture: 40
+    flavor: 36
