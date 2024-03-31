@@ -1,12 +1,11 @@
 name: Lemon Pie
 version: 2
-# referenceUrls: 
 creamiProductType: original
 ingredients:
   - 1 tsp, lemon extract
   - 1/2 c, heavy whipping cream
   - 3/4 c, 2% milk
-  - 3/4 cup, lemon pie filling
+  - 3/4 c, lemon pie filling
   - 2 tbsp, Swerve
 steps:
   - Mix all ingredients with an immersion blender, except the graham crackers.
@@ -22,6 +21,6 @@ notes:
     version: 1
     # versionLink: 
     text: Too much vanilla flavor. Graham crackers did not add much.
-  score:
-    texture: 40
-    flavor: 36
+score:
+  texture: 40
+  flavor: 36
