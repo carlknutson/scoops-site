@@ -24,10 +24,10 @@ steps:
   - Take the remaining oreos from the freezer (except for 1). Cut them in about 1/4 size chunks. Create a hole in the pint that is off-center. Fill with oreos. Re-install the pint and choose MIX-INS.
   - Use the remaining oreo as a topping.
 notes:
-  - date: 
+  - date: 04/06/23
     version: 1
     # versionLink:
-    text:
+    text: Prep more oreos for topping. Mix-in oreos were pulverized, maybe use a mix of soaked and non-soaked for mix in next time.
 score:
-  # texture: 30
-  # flavor: 32
+  texture: 45
+  flavor: 40

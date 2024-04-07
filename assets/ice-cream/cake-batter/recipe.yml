@@ -9,17 +9,22 @@ ingredients:
   - 1/2 c, heavy whipping cream
   - 1 tsp, cake batter flavor extract
   - 1/4 c, sprinkles
+  - 4, frosted animal crackers
 steps:
   - Using an immersion blender, mix all ingredients.
   - Pour into pint and freeze for 24 hours.
-  - Take the pint out of freezer, let sit out on the counter for 5 mins.
-  - Install pint, choose Ice CREAM and spin.
-  - Using a spoon, make a hole reaching the bottom of the pint. Add sprinkles. Install the pint. Choose MIX-IN setting and spin.
+  - Take the pint out of freezer, run pint under hot water for 15 seconds.
+  - Install pint, choose Ice CREAM and spin. Required 2-3 re-spins.
+  - Using a spoon, make a hole reaching the bottom of the pint. Add sprinkles and animal crackers. Install the pint. Choose MIX-IN setting and spin.
 notes:
+  - date: 04/06/24
+    version: 2
+    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/main/src/assets/ice-cream/cake-batter/recipe.yml
+    text: Next time try without vanilla pudding mix, instead use another thickener and sweetener.
   - date: 01/29/24
     version: 1
-    # versionLink:
+    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/30ce4c0612dd673aba331ac6884460afcdf0e24a/src/assets/ice-cream/cake-batter/recipe.yml
     text: I would like to try this recipe again with running sides of pint under hot water before spinning. Adding cake pieces (or maybe sugar cookies) to the pint would be also something I would like to try. Realized that cake batter extract is not so easy to find.
 score:
-  texture: 30
-  flavor: 32
+  texture: 38
+  flavor: 35
