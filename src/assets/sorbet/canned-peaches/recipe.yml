@@ -1,10 +1,10 @@
 name: Canned Peaches
-version: 1
+version: 2
 referenceUrls: 
   - https://ninjatestkitchen.com/recipe/easy-peach-sorbet/
 creamiProductType: original
 ingredients:
-  - 15 oz, canned peaches (in juice)
+  - 24 oz, canned Kirkland sliced peaches (in light syrup)
 steps:
   - Using an immersion blender, blend the canned peaches.
   - Pour into pint and freeze for 24 hours.
@@ -12,10 +12,14 @@ steps:
   - Run sides of pint under hot water for 30 secs.
   - Install pint, choose SORBET and spin.
 notes:
+  - date: 04/21/24
+    version: 2
+    #versionLink: https://github.com/carlknutson/ninja-creami-cookbook/blob/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/sorbet/canned-peaches/recipe.yml
+    text: No changes for next spin.
   - date: 02/03/24
     version: 1
-    # versionLink:
+    versionLink: https://github.com/carlknutson/ninja-creami-cookbook/blob/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/sorbet/canned-peaches/recipe.yml
     text: The sourced recipe uses 20 oz canned peaches, should increase the amount next time around. Would like to add stevia in next spin to improve sweetness.
 score:
-  texture: 35
-  flavor: 28
+  texture: 40
+  flavor: 39
