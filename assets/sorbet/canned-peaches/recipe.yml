@@ -12,6 +12,10 @@ steps:
   - Run sides of pint under hot water for 30 secs.
   - Install pint, choose SORBET and spin.
 notes:
+  date: 8/4/24
+    version: 2
+    #versionLink: https://github.com/carlknutson/ninja-creami-cookbook/blob/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/sorbet/canned-peaches/recipe.yml
+    text: No changes to recipe. First recipe made with Cuisinart Ice-21. The texture was better than Ninja Creami. Took less than 15 mins to get desired texture.
   - date: 04/21/24
     version: 2
     #versionLink: https://github.com/carlknutson/ninja-creami-cookbook/blob/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/sorbet/canned-peaches/recipe.yml
@@ -21,5 +25,5 @@ notes:
     versionLink: https://github.com/carlknutson/ninja-creami-cookbook/blob/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/sorbet/canned-peaches/recipe.yml
     text: The sourced recipe uses 20 oz canned peaches, should increase the amount next time around. Would like to add stevia in next spin to improve sweetness.
 score:
-  texture: 40
+  texture: 43
   flavor: 39
