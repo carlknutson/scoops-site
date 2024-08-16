@@ -47,6 +47,11 @@ export const PINTS: Pint[] = [
       pintType: PintType.iceCream,
     },
     {
+      name: 'Rhubarb Swirl',
+      urlName: 'rhubarb-swirl',
+      pintType: PintType.iceCream,
+    },
+    {
       name: 'Shamrock',
       urlName: 'shamrock',
       pintType: PintType.milkShake,
