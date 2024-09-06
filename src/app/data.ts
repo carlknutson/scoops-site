@@ -26,6 +26,11 @@ export const PINTS: Pint[] = [
       urlName: 'canned-peaches',
       pintType: PintType.sorbet,
     },
+    {
+      name: 'Chocolate',
+      urlName: 'chocolate',
+      pintType: PintType.iceCream,
+    },
     { 
       name: 'Classic Vanilla',
       urlName: 'classic-vanilla',
