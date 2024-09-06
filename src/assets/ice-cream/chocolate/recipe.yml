@@ -1,0 +1,25 @@
+name: Chocolate
+version: 1
+referenceUrls: 
+  - https://www.theroastedroot.net/4-ingredient-no-churn-chocolate-ice-cream/
+creamiProductType: deluxe
+ingredients:
+  - 3 tbsp, unsweetened cocoa powder
+  - 2 cups, heavy whipping cream
+  - 14 oz, sweetened condensed milk 
+  - 2 tsp, pure vanilla extract
+  - 1/4 tsp, sea salt
+steps:
+  - Mix all ingredients with immersion blender.
+  - Let mixture sit in fridge for at least 3 hours.
+  - Churn.
+  - In a storage container, scoop ice cream in and freeze.
+  - Best to freeze for at least a couple hours before scooping.
+notes:
+  - date: 09/04/24
+    version: 1
+    # versionLink: 
+    text: Made in ice-21. Compared to other easy chcolate recipes this was best so far. Taste was rich, almost like a dark chcolate. Texture was a little more gummy/thick than desired but very creamy.
+score:
+  texture: 43
+  flavor: 45
