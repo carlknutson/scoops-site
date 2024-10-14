@@ -14,12 +14,15 @@ steps:
   - Mix all ingredients except jam with immersion blender. Let mixture sit in fridge overnight.
   - Next day, churn the vanilla base.
   - In a storage container, scoop ice cream in. Then scoop in rhubarb jelly, covering the ice cream creating a thin layer. Continue alternating, should have at least three layers of rhubarb jam.
-  - Best to freeze for at least acouple hours before scooping.
+  - Best to freeze for at least a couple hours before scooping.
 notes:
   - date: 08/15/24
     version: 1
     # versionLink: 
     text: Made in ice-21. Great after two hours. Will be interesting to see how it will hold after a few days.
+  - date: 09/28/24
+    version: 2
+    text: Tested same recipe with Les Tres recipe. I think first version is preferred, but also turned out good.
 score:
   texture: 42
   flavor: 42
