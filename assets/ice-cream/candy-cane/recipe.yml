@@ -1,0 +1,27 @@
+name: Candy Cane
+version: 1
+referenceUrls: 
+  - https://www.yourhomebasedmom.com/peppermint-ice-cream
+creamiProductType: deluxe
+ingredients:
+  - 1 1/2 c, half and half
+  - 1 1/2 c, whole milk
+  - 2 c, whipping cream
+  - 1 1/2 c, granulated sugar
+  - 1 tbsp, vanilla extract
+  - 1 tbsp, peppermint extract
+  - 1/4 tsp, salt
+  - 2/3 cup, crushed candy cane
+steps:
+  - In a food processor, crush candy cane.
+  - Mix liquids, sugars, along with 3/4 of the candy cane mix.
+  - Let sit in frige for a few hours.
+  - Process the ice cream. Add remaining candy cane towards end of processing.
+notes:
+  - date: 11/25/24
+    version: 1
+    # versionLink: 
+    text: Made in ice-21. Used 2/3 cup instead full cup of peppermint. Probably did not need the full amount. This made too much for a single spin. It could be cut in half next time for a single spin.
+score:
+  texture: 38
+  flavor: 39
