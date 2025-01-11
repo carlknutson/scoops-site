@@ -80,5 +80,10 @@ export const PINTS: Pint[] = [
       name: 'Candy Cane',
       urlName: 'candy-cane',
       pintType: PintType.iceCream,
+    },
+    {
+      name: 'Sugar Cookie',
+      urlName: 'sugar-cookie',
+      pintType: PintType.iceCream,
     }
 ]
