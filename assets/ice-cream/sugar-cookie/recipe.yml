@@ -1,0 +1,29 @@
+name: Sugar Cookie
+version: 1
+referenceUrls: 
+  - https://icecreamfromscratch.com/christmas-ice-cream/
+creamiProductType: deluxe
+ingredients:
+  - 2 c, heavy cream
+  - 1 c, whole milk
+  - 3/4 c, granulated sugar
+  - 1 tsp, vanilla extract
+  - 1/4 tsp, kosher salt
+  - 1 c, chopped frosted sugar cookies
+  - 3/4 c, sprinkles
+steps:
+  - Chill the ice cream bowl for at least 24 hours or until solid; ensure no water sloshing is heard when shaken.
+  - Mix together heavy cream, whole milk, granulated sugar, vanilla extract, and kosher salt for 2-3 minutes until the sugar dissolves completely.
+  - Churn the mixture in the ice cream machine.
+  - During the last 2 minutes of churning, add Christmas sugar cookies and ½ cup of holiday sprinkles, reserving the rest.
+  - Spoon the churned ice cream into a shallow container and top with remaining sprinkles.
+  - Freeze for at least 4 hours, or until solid.
+  - Before serving, let the ice cream sit at room temperature for about 5 minutes.
+notes:
+  - date: 12/24/24
+    version: 1
+    # versionLink: 
+    text: Made in ice-21. After adding ingredients, freezer bowl was overfilled. Next time could try with unfrosted sugar cookies. Had heavy fat mouth feel. Could also do with less sprinkles.
+score:
+  texture: 39
+  flavor: 45
