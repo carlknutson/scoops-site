@@ -5,8 +5,10 @@ export interface Pint {
 }
 
 export interface PintScore {
+    appearance: number;
     texture: number;
     flavor: number;
+    aftertaste: number;
 }
 
 export interface PintNotes {

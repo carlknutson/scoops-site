@@ -172,7 +172,17 @@ export class DetailsComponent implements OnInit {
 
   calculateScore(): number|undefined {
     if (this.pintDetails?.score) {
-      return this.pintDetails.score.flavor + this.pintDetails.score.texture
+      let score = 0
+
+      if (this.pintDetails.score?.appearance) {
+        score = score += this.pintDetails.score.appearance
+      }
+
+      if (this.pintDetails.score?.aftertaste) {
+        score = score += this.pintDetails.score.aftertaste
+      }
+
+      return score + this.pintDetails.score.flavor + this.pintDetails.score.texture
     }
     return undefined
   }
