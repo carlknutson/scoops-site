@@ -1,0 +1,26 @@
+name: alattefood.com's Homemade Strawberry Ice Cream
+version: 1
+referenceUrls:
+  - https://www.alattefood.com/homemade-strawberry-ice-cream/
+creamiProductType: original
+ingredients:
+  - 1 1/2 c, strawberries hulled and diced
+  - 2 tbsp, honey
+  - 1/2 c, granulated sugar
+  - 1 tsp, lemon juice
+  - 1 c, heavy whipping cream
+  - 1/2 c, half and half
+  - 1 tsp, vanilla extract
+steps:
+  - In a large bowl, mix strawberries, honey, sugar, and lemon juice. Allow to sit 15-20 minutes.
+  - Mash or blend mixture.
+  - To the strawberries, mix heavy cream, half and half, and vanilla extract.
+  - Churn the mixture and freeze.
+notes:
+  - text: I opted to puree the mixture, the author mentions to use less strawberries for a creamier texture so went with 1 cup instead of 1.5. This could have been double batched.
+score:
+  texture: 20
+  flavor: 18
+  appearance: 20
+  aftertaste: 17
+  
