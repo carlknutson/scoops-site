@@ -90,5 +90,10 @@ export const PINTS: Pint[] = [
       name: 'Cold Cocoa',
       urlName: 'cold-cocoa',
       pintType: PintType.iceCream,
+    },
+    {
+      name: "alattefood.com's Homemade Strawberry Ice Cream",
+      urlName: 'homemade-strawberry-ice-cream',
+      pintType: PintType.iceCream,
     }
 ]
