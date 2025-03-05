@@ -1,24 +1,32 @@
 name: Cookies and Cream
-version: 1
+version: 2
 referenceUrls: 
   - https://www.chewoutloud.com/cookies-and-cream-ice-cream/
 creamiProductType: deluxe
 ingredients:
   - 2 c, heavy cream
-  - 1 c, 2% milk
+  - 1 c, whole milk
+  - 2 tbs, whole milk (for crushed oreos))
   - 3/4 c, granulated sugar
   - 2 tsp, vanilla extract
-  - 12, Double Stuffed Oreos
+  - 20, Oreos
 steps:
-  - Break up Oreos and freeze before hand.
+  - Break up Oreos into chunks.
+  - Add to large freezer ziplock bag.
+  - Pour a small anount of milk into the bag and swish around. Then freeze.
   - Mix remaining ingredients with immersion blender. Let mixture sit in fridge overnight or at least a few hours.
   - Give quick stur and churn the vanilla base.
-  - Once churned, pour in Oreos before completing. Churned for a few mins to mix in.
+  - Transfer base to storage container, layering frozen Oreos between scoops.
 notes:
   - date: 08/27/24
     version: 1
     # versionLink: 
     text: Made in ice-21. Next churn plan to layer Oreos rather than churning all within base. Also try more Oreos but regular rather than Double Stuffed.
+  - date: 02/17/25
+    version: 2
+    text: Increased regular Oreos was good. No changes next time.
 score:
   texture: 21
   flavor: 22
+  appearance: 25
+  aftertaste: 18
