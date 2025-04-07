@@ -1,5 +1,4 @@
 name: Rhubarb Swirl
-version: 1
 referenceUrls: 
   - https://www.reddit.com/r/icecreamery/s/J7XIvB1JYF
 creamiProductType: deluxe
@@ -17,11 +16,8 @@ steps:
   - Best to freeze for at least a couple hours before scooping.
 notes:
   - date: 08/15/24
-    version: 1
-    # versionLink: 
     text: Made in ice-21. Great after two hours. Will be interesting to see how it will hold after a few days.
   - date: 09/28/24
-    version: 2
     text: Tested same recipe with Les Tres recipe. I think first version is preferred, but also turned out good.
 score:
   texture: 21

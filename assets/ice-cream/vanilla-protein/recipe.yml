@@ -1,5 +1,4 @@
-name: High Protein Vanilla
-version: 1
+name: Vanilla Protein
 referenceUrls: 
   - https://bykelseysmith.com/ninja-creami-vanilla-protein-ice-cream/
 creamiProductType: deluxe
@@ -16,15 +15,9 @@ steps:
   - The pint was still crumbly after the first spint, one re-spin got it to the right consistency.
 notes:
   - date: 02/08/24
-    version: 2
-    # versionLink: 
     text: I enjoyed the flavor of the Fairlife shake more than the muscle milk shakes. Texture was marginably better. For next spin, thinking about replacing the pudding mix with a different non-flavored binder. After reviewing the source recipe, the standard pint and deluxe pint measurements are not scaling appropriately. Next spin should plan to update the recipe to 'original pint', and set to 14 oz shake, 1 tbsp stevia, and 1 tablespoon pudding mix. The app will scale appropriately for the deluxe pint conversion (.5 tbsp less sweetener and pudding mix which I think will improve taste).
   - date: 01/26/24
-    version: 1
-    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/8181b7b82934b98480f3505662b5abecb05c5fca/src/assets/ice-cream/high-protein-vanilla/recipe.yml
     text: Very prevelant protein taste. Icy on sides. Next time plan to use Fairlife and run hot water on sides of pint.
 score:
   texture: 13
   flavor: 12
-
-

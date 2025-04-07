@@ -1,5 +1,4 @@
-name: Chocolate
-version: 1
+name: Rich Chocolate 
 referenceUrls: 
   - https://www.theroastedroot.net/4-ingredient-no-churn-chocolate-ice-cream/
 creamiProductType: deluxe
@@ -17,8 +16,6 @@ steps:
   - Best to freeze for at least a couple hours before scooping.
 notes:
   - date: 09/04/24
-    version: 1
-    # versionLink: 
     text: Made in ice-21. Compared to other easy chcolate recipes this was best so far. Taste was rich, almost like a dark chcolate. Texture was a little more gummy/thick than desired but very creamy.
 score:
   texture: 21

@@ -1,5 +1,4 @@
 name: Peanut Butter Banana
-version: 4
 referenceUrls: 
   - https://www.reddit.com/r/Volumeeating/comments/trsmp3/peanut_butter_banana_ice_cream_in_the_ninja/?utm_source=share&utm_medium=web2x&context=3
 creamiProductType: original
@@ -22,23 +21,13 @@ steps:
   - Install pint and choose MIX-IN spin.
 notes:
   - date: 03/23/24
-    version: 4
-    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/018de73354b73a5334dc8263f94438b517c5340a/src/assets/ice-cream/peanut-butter-banana/recipe.yml
     text: Instead of Peanut Butter, tried Reese's Thins. Next time, add back pb. Thins were good, but actual cups may be better. Instead of adding PB as mix-in, add into base next time.
   - date: 03/09/24
-    version: 3
-    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/30ce4c0612dd673aba331ac6884460afcdf0e24a/src/assets/ice-cream/peanut-butter-banana/recipe.yml
     text: Extra peanut butter improved texture and taste. Dark chocolate did not pair well, milk chocolate best for next time.
   - date: 03/03/24
-    version: 2
-    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/eecd6be077977b327e26c4ab1ca53e5e411ec27b/src/assets/ice-cream/peanut-butter-banana/recipe.yml
     text: Slightly icey. Next time increase amount of peanut butter mix-in. Use non-mini chocolate chips. Swap banana creme pudding with another non-flavored binder. 
   - date: 02/19/24
-    version: 1
-    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/ice-cream/peanut-butter-banana/recipe.yml
     text: Next time would like to add more Pb Fit (at least a serving), also would maybe add peanut butter. Another thought was to sub pudding for a non-flavored binder (the banana flavor seemed overpowering).
 score:
   texture: 18
   flavor: 17
-
-

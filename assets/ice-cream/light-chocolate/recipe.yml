@@ -1,5 +1,4 @@
 name: Light Chocolate
-version: 1
 referenceUrls: 
   - https://www.youtube.com/watch?v=YyNNWmWGtI4&t=496s
 creamiProductType: original
@@ -20,11 +19,8 @@ steps:
   - Install pint, choose LIGHT ICE CREAM and spin. Required one re-spin.
 notes:
   - date: 08/06/24
-    version: 1
     text: Using Ice-21 w/ deluxe recipe. Processed for about 15 mins. very fluffy. Added a handful of marsallows as well. After storing in freezer overnight, required time to thaw before consumption. Ebded up being ok, however was not as good as with creami. Updated scores to reflect.
   - date: 03/14/24
-    version: 1
-    # versionLink:
     text: Try decreasing Swerve in next batch. This was a winner.
 score:
   texture: 16

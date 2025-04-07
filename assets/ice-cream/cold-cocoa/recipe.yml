@@ -1,5 +1,4 @@
 name: Cold Cocoa
-version: 1  
 referenceUrls: https://www.chewoutloud.com/easy-chocolate-ice-cream-eggs/  
 creamiProductType: original  
 ingredients:  
@@ -18,7 +17,6 @@ steps:
   - Prior to serving, let ice cream sit at room temp for a few minutes just to soften enough for easy scooping.  
 notes:  
   - date: 01/19/25  
-    version: 1  
     text: No changes next time.
 score:  
   texture: 22
