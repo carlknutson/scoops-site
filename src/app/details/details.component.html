@@ -1,7 +1,7 @@
 <mat-card class="example-card" >
     <mat-card-header>
         <mat-card-title>{{pintDetails?.name}} </mat-card-title>
-        <mat-card-subtitle>{{getPintTypeCardLabel(pintType)}} - Version: {{pintDetails?.version}}</mat-card-subtitle>
+        <mat-card-subtitle>{{getPintTypeCardLabel(pintType)}}</mat-card-subtitle>
     </mat-card-header>
     <div id="details-image-container">
         <img mat-card-image src={{getImageUrl(pintType,pintName)}} alt="image of {{pintName}}" id="details-image">
@@ -44,10 +44,6 @@
             </p>
         </div>
         <div *ngIf="group.value === 'notes'">
-            <p *ngFor="let note of pintDetails?.notes">
-                [{{note.date}}]
-                <a href="{{note.versionLink}}" target="_blank" rel="noopener noreferrer">[version: {{note.version}}] </a>
-                : {{note.text}}
-            </p>
+            <p *ngFor="let note of pintDetails?.notes"> [{{note.date}}]: {{note.text}} </p>
         </div>
     </mat-card-content>

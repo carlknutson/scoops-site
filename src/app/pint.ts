@@ -13,14 +13,11 @@ export interface PintScore {
 
 export interface PintNotes {
     date: string;
-    version: number;
-    versionLink: string;
     text: string;
 }
 
 export interface PintDetails {
     name: string;
-    version: number;
     referenceUrls: string[];
     creamiProductType: CreamiProductType;
     ingredients: string[];
