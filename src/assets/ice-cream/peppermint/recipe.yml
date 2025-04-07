@@ -1,5 +1,4 @@
-name: Candy Cane
-version: 1
+name: Peppermint
 referenceUrls: 
   - https://www.yourhomebasedmom.com/peppermint-ice-cream
 creamiProductType: deluxe
@@ -19,8 +18,6 @@ steps:
   - Process the ice cream. Add remaining candy cane towards end of processing.
 notes:
   - date: 11/25/24
-    version: 1
-    # versionLink: 
     text: Made in ice-21. Used 2/3 cup instead full cup of peppermint. Probably did not need the full amount. This made too much for a single spin. It could be cut in half next time for a single spin.
 score:
   texture: 19

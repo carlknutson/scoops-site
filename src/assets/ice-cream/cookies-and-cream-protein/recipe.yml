@@ -1,5 +1,4 @@
-name: High Protein Oreo
-version: 1
+name: Cookies and Cream Protein
 referenceUrls: 
   - https://www.youtube.com/watch?v=HbvidbBT-iA
 creamiProductType: original
@@ -25,8 +24,6 @@ steps:
   - Use the remaining oreo as a topping.
 notes:
   - date: 04/06/23
-    version: 1
-    # versionLink:
     text: Prep more oreos for topping. Mix-in oreos were pulverized, maybe use a mix of soaked and non-soaked for mix in next time.
 score:
   texture: 22

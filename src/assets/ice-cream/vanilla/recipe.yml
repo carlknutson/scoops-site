@@ -1,5 +1,4 @@
-name: Classic Vanilla
-version: 2
+name: Vanilla
 referenceUrls: 
   - https://ninjatestkitchen.com/recipe/vanilla-ice-cream-with-chocolate-chips/
 creamiProductType: deluxe
@@ -18,12 +17,8 @@ steps:
   - Pint was crumbly, required a re-spin.
 notes:
   - date: 03/02/24
-    version: 2
-    # versionLink: 
     text: Ran out of heavy cream while making recipe - increased 2% milk used. Icey. Next time try v1 ingredients and increase vanilla.
   - date: 02/10/24
-    version: 1
-    versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/ice-cream/classic-vanilla/recipe.yml
     text: Not going to score. Ended up being very soupy - spun too many times - along with allowing to sit out for too long. We will attempt this recip again - with real cream cheese and a shorter wait out period on the counter.
 score:
   texture: 12

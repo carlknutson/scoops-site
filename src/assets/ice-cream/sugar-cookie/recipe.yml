@@ -1,5 +1,4 @@
 name: Sugar Cookie
-version: 1
 referenceUrls: 
   - https://icecreamfromscratch.com/christmas-ice-cream/
 creamiProductType: deluxe
@@ -21,8 +20,6 @@ steps:
   - Before serving, let the ice cream sit at room temperature for about 5 minutes.
 notes:
   - date: 12/24/24
-    version: 1
-    # versionLink: 
     text: Made in ice-21. After adding ingredients, freezer bowl was overfilled. Next time could try with unfrosted sugar cookies. Had heavy fat mouth feel. Could also do with less sprinkles.
 score:
   texture: 19

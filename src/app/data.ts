@@ -7,12 +7,12 @@ export const PINTS: Pint[] = [
       pintType: PintType.sorbet,
     },
     {
-      name: 'High Protein Vanilla',
-      urlName: 'high-protein-vanilla',
+      name: 'Vanilla Protein',
+      urlName: 'vanilla-protein',
       pintType: PintType.iceCream,
     },
     {
-      name: 'Cake Batter',
+      name: "Cake Batter",
       urlName: 'cake-batter',
       pintType: PintType.iceCream,
     },
@@ -27,18 +27,18 @@ export const PINTS: Pint[] = [
       pintType: PintType.sorbet,
     },
     {
-      name: 'Chocolate',
-      urlName: 'chocolate',
+      name: 'Cold Cocoa',
+      urlName: 'cold-cocoa',
       pintType: PintType.iceCream,
     },
     { 
-      name: 'Classic Vanilla',
-      urlName: 'classic-vanilla',
+      name: 'Vanilla',
+      urlName: 'vanilla',
       pintType: PintType.iceCream,
     },
     {
-      name: 'Easy Les Tres',
-      urlName: 'easy-les-tres',
+      name: 'Tres Leches',
+      urlName: 'tres-leches',
       pintType: PintType.iceCream,
     },
     {
@@ -47,8 +47,8 @@ export const PINTS: Pint[] = [
       pintType: PintType.iceCream,
     },
     {
-      name: 'High Protein PB Chocolate Banana',
-      urlName: 'high-protein-pb-chocolate-banana',
+      name: 'Peanut Butter Chocolate Banana Protein',
+      urlName: 'peanut-butter-chocolate-banana-protein',
       pintType: PintType.iceCream,
     },
     {
@@ -67,8 +67,8 @@ export const PINTS: Pint[] = [
       pintType: PintType.milkShake,
     },
     {
-      name: 'High Protein Oreo',
-      urlName: 'high-protein-oreo',
+      name: 'Cookies and Cream Protein',
+      urlName: 'cookies-and-cream-protein',
       pintType: PintType.iceCream,
     },
     {
@@ -77,8 +77,8 @@ export const PINTS: Pint[] = [
       pintType: PintType.iceCream,
     },
     {
-      name: 'Candy Cane',
-      urlName: 'candy-cane',
+      name: "Peppermint",
+      urlName: 'peppermint',
       pintType: PintType.iceCream,
     },
     {
@@ -87,13 +87,8 @@ export const PINTS: Pint[] = [
       pintType: PintType.iceCream,
     }, 
     {
-      name: 'Cold Cocoa',
-      urlName: 'cold-cocoa',
-      pintType: PintType.iceCream,
-    },
-    {
-      name: "alattefood.com's Homemade Strawberry Ice Cream",
-      urlName: 'homemade-strawberry-ice-cream',
+      name: "Strawberry",
+      urlName: 'strawberry',
       pintType: PintType.iceCream,
     }
 ]

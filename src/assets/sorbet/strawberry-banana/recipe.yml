@@ -1,5 +1,4 @@
 name: Strawberry Banana
-version: 1
 referenceUrls: 
   - https://ninjatestkitchen.com/recipe/fresh-fruit-banana-sorbet/
 creamiProductType: original
@@ -14,8 +13,6 @@ steps:
   - Install pint, spin on SORBET.
 notes:
   - date: 01/26/24
-    version: 1
-    # versionLink:
     text:  I found a re-spin unnecessary. Next time would consider increasing strawberry count to enhance flavor. Also would consider running sides of pint under hot water to attempt to cut down on ice build-up.
 score:
   texture: 13

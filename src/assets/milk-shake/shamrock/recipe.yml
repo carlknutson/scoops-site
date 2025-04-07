@@ -1,5 +1,4 @@
 name: Shamrock
-version: 1
 referenceUrls: 
   - https://forktospoon.com/ninja-creami-shamrock-shake
 creamiProductType: deluxe
@@ -17,8 +16,6 @@ steps:
   - Top the glasses with the whipped topping.
 notes:
   - date: 03/16/24
-    version: 1
-    # versionLink:
     text: Attempt a mix-in of something like crushed girl scout peppermint cookies.
 score:
   texture: 22

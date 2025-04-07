@@ -1,5 +1,4 @@
-name: High Protein PB Chocolate Banana
-version: 1
+name: Peanut Butter Chocolate Banana Protein
 # referenceUrls: 
 creamiProductType: deluxe
 ingredients:
@@ -16,11 +15,7 @@ steps:
   - Install pint, choose Light Ice Cream and spin the pint. (Was still powdery, so did one re-spin).
 notes:
   - date: 03/13/24
-    version: 1
-    # versionLink: https://raw.githubusercontent.com/carlknutson/ninja-creami-cookbook/2c67ace712fa0919009c6d4bc21511fed7be759d/src/assets/ice-cream/peanut-butter-banana/recipe.yml
     text: Increase amount of banana and pb fit.
 score:
   texture: 18
   flavor: 10
-
-

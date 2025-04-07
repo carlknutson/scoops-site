@@ -1,5 +1,4 @@
-name: alattefood.com's Homemade Strawberry Ice Cream
-version: 1
+name: Strawberry
 referenceUrls:
   - https://www.alattefood.com/homemade-strawberry-ice-cream/
 creamiProductType: original
@@ -17,7 +16,8 @@ steps:
   - To the strawberries, mix heavy cream, half and half, and vanilla extract.
   - Churn the mixture and freeze.
 notes:
-  - text: I opted to puree the mixture, the author mentions to use less strawberries for a creamier texture so went with 1 cup instead of 1.5. This could have been double batched.
+  - date: 03/05/25 
+    text: I opted to puree the mixture, the author mentions to use less strawberries for a creamier texture so went with 1 cup instead of 1.5. This could have been double batched.
 score:
   texture: 20
   flavor: 18
