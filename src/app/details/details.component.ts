@@ -5,7 +5,7 @@ import { parse } from 'yamljs';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs/operators';
 import { MatIconModule } from '@angular/material/icon';
-import { CreamiProductType, PintDetails, PintType } from '../pint';
+import { ProductType, PintDetails, PintType } from '../pint';
 import { MatCardModule } from '@angular/material/card';
 import { MatSelectModule } from '@angular/material/select';
 import { MatListModule } from '@angular/material/list';
@@ -38,11 +38,12 @@ export class DetailsComponent implements OnInit {
 
   originalCreamiIngredients: string[] = []
   deluxeCreamiIngredients: string[] = []
+  ice21Ingredients: string[] = []
 
   medal: string = '';
   medal_description: string = ''
   
-  selectedNinjaProduct: CreamiProductType | undefined
+  selectedProduct: ProductType | undefined
 
   ngOnInit(): void {
     this.getPint();
@@ -63,19 +64,23 @@ export class DetailsComponent implements OnInit {
       map(yamlString => parse(yamlString))
     ).subscribe(data => {
       this.pintDetails = data
-      this.selectedNinjaProduct = this.pintDetails?.creamiProductType
+      this.selectedProduct = this.pintDetails?.productType
 
-      if (this.pintDetails?.creamiProductType == CreamiProductType.deluxe) {
+      if (this.pintDetails?.productType == ProductType.ncDeluxe) {
         this.deluxeCreamiIngredients = this.pintDetails.ingredients
-        this.originalCreamiIngredients = this.convertIngredients(CreamiProductType.deluxe, CreamiProductType.original, this.pintDetails.ingredients)
-
-      } else if (this.pintDetails?.creamiProductType == CreamiProductType.original || this.pintDetails?.creamiProductType == CreamiProductType.breeze) {
+        this.originalCreamiIngredients = this.convertIngredients(ProductType.ncDeluxe, ProductType.ncOriginal, this.pintDetails.ingredients)
+        this.ice21Ingredients = this.convertIngredients(ProductType.ncDeluxe, ProductType.ice21, this.pintDetails.ingredients)
+      } else if (this.pintDetails?.productType == ProductType.ncOriginal || this.pintDetails?.productType == ProductType.ncBreeze) {
         this.originalCreamiIngredients = this.pintDetails.ingredients
-        this.deluxeCreamiIngredients = this.convertIngredients(CreamiProductType.original, CreamiProductType.deluxe, this.pintDetails.ingredients)
+        this.deluxeCreamiIngredients = this.convertIngredients(ProductType.ncOriginal, ProductType.ncDeluxe, this.pintDetails.ingredients)
+        this.ice21Ingredients = this.convertIngredients(ProductType.ncOriginal, ProductType.ice21, this.pintDetails.ingredients)
+      } else if (this.pintDetails?.productType == ProductType.ice21) {
+        this.ice21Ingredients = this.pintDetails.ingredients
+        this.originalCreamiIngredients = this.convertIngredients(ProductType.ice21, ProductType.ncOriginal, this.pintDetails.ingredients)
+        this.deluxeCreamiIngredients = this.convertIngredients(ProductType.ice21, ProductType.ncDeluxe, this.pintDetails.ingredients)
       }
 
       [this.medal, this.medal_description] = this.getMedalAndDescription(this.pintName, this.pints)
-      console.log(this.medal)
     });
   }
 
@@ -91,7 +96,7 @@ export class DetailsComponent implements OnInit {
     else return ['',''];
   }
 
-  convertIngredients(fromPint: CreamiProductType, toPint: CreamiProductType, ingredients: string[]): string[] {
+  convertIngredients(fromPint: ProductType, toPint: ProductType, ingredients: string[]): string[] {
 
     const measurementTypes = [
       "c",
@@ -104,10 +109,10 @@ export class DetailsComponent implements OnInit {
     const convertedList = []
 
     if ((fromPint == toPint) ||
-        (fromPint == CreamiProductType.original && toPint == CreamiProductType.breeze) ||
-        (fromPint == CreamiProductType.breeze && toPint == CreamiProductType.original)) {
+        (fromPint == ProductType.ncOriginal && toPint == ProductType.ncBreeze) ||
+        (fromPint == ProductType.ncBreeze && toPint == ProductType.ncOriginal)) {
 
-          // nothing to convert, return original ingredietns
+          // nothing to convert, return original ingredients
           return ingredients
     }
 
@@ -141,11 +146,28 @@ export class DetailsComponent implements OnInit {
         let convertedAmount: any;
         let finalAmount: string;
 
-        if (toPint == CreamiProductType.deluxe) {
-          convertedAmount = math.evaluate(totalAmount + '* 24 / 16')
+        if (fromPint == ProductType.ncDeluxe) {
+          if (toPint == ProductType.ncBreeze || toPint == ProductType.ncOriginal) {
+            convertedAmount = math.evaluate(totalAmount + ' * 16 / 24')
+          } else if (toPint == ProductType.ice21) {
+            convertedAmount = math.evaluate(totalAmount + ' * 32 / 24')
+          }
+        }
 
-        } else {
-          convertedAmount = math.evaluate(totalAmount + ' * 16 / 24')
+        if (fromPint == ProductType.ncOriginal || fromPint == ProductType.ncBreeze) {
+          if (toPint == ProductType.ncDeluxe) {
+            convertedAmount = math.evaluate(totalAmount + ' * 24 / 16')
+          } else if (toPint == ProductType.ice21) {
+            convertedAmount = math.evaluate(totalAmount + ' * 32 / 16')
+          }
+        }
+
+        if (fromPint == ProductType.ice21) {
+          if (toPint == ProductType.ncBreeze || toPint == ProductType.ncOriginal) {
+            convertedAmount = math.evaluate(totalAmount + ' * 16 / 32')
+          } else if (toPint == ProductType.ncDeluxe) {
+            convertedAmount = math.evaluate(totalAmount + ' * 24 / 32')
+          }
         }
 
         const numerator = convertedAmount.n
@@ -189,24 +211,7 @@ export class DetailsComponent implements OnInit {
   }
   
   getChipListValue(chipEvent: any) {
-    this.selectedNinjaProduct = chipEvent.value
-  }
-
-  calculateScore(): number|undefined {
-    if (this.pintDetails?.score) {
-      let score = 0
-
-      if (this.pintDetails.score?.appearance) {
-        score = score += this.pintDetails.score.appearance
-      }
-
-      if (this.pintDetails.score?.aftertaste) {
-        score = score += this.pintDetails.score.aftertaste
-      }
-
-      return score + this.pintDetails.score.flavor + this.pintDetails.score.texture
-    }
-    return undefined
+    this.selectedProduct = chipEvent.value
   }
 }
 

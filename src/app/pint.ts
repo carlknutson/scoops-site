@@ -19,7 +19,7 @@ export interface PintNotes {
 export interface PintDetails {
     name: string;
     referenceUrls: string[];
-    creamiProductType: CreamiProductType;
+    productType: ProductType;
     ingredients: string[];
     steps: string[];
     notes: PintNotes[];
@@ -32,8 +32,9 @@ export enum PintType {
     milkShake = "milk-shake"
 }
 
-export enum CreamiProductType {
-    breeze = "breeze",
-    original = "original",
-    deluxe = "deluxe"
+export enum ProductType {
+    ncBreeze = "CREAMi Breeze",
+    ncOriginal = "CREAMi Original",
+    ncDeluxe = "CREAMi Deluxe",
+    ice21 = "ICE-21"
 }

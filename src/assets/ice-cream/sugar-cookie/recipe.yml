@@ -1,7 +1,7 @@
 name: Sugar Cookie
 referenceUrls: 
   - https://icecreamfromscratch.com/christmas-ice-cream/
-creamiProductType: deluxe
+productType: CREAMi Deluxe
 ingredients:
   - 2 c, heavy cream
   - 1 c, whole milk

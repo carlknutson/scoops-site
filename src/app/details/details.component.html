@@ -13,22 +13,28 @@
     <mat-card-content id="card-content">
         <div *ngIf="group.value === 'ingredients'">
             <div id="product">
-                <mat-card-subtitle *ngIf="!selectedNinjaProduct">
+                <mat-card-subtitle *ngIf="!selectedProduct">
                     Choose your Ninja Creami Product: 
                 </mat-card-subtitle>
                 <mat-chip-listbox selectable="true" aria-label="Ninja Creami product type" (change)="getChipListValue($event)">
-                    <mat-chip-option selected="{{selectedNinjaProduct === 'original'}}" value="original">Original</mat-chip-option>
-                    <mat-chip-option selected="{{selectedNinjaProduct === 'deluxe'}}" value="deluxe">Deluxe</mat-chip-option>
-                    <mat-chip-option selected="{{selectedNinjaProduct === 'breeze'}}" value="breeze">Breeze</mat-chip-option>
+                    <mat-chip-option selected="{{selectedProduct === 'ICE-21'}}" value="ICE-21">ICE-21</mat-chip-option>
+                    <mat-chip-option selected="{{selectedProduct === 'CREAMi Original'}}" value="CREAMi Original">CREAMi Original</mat-chip-option>
+                    <mat-chip-option selected="{{selectedProduct === 'CREAMi Deluxe'}}" value="CREAMi Deluxe">CREAMi Deluxe</mat-chip-option>
+                    <mat-chip-option selected="{{selectedProduct === 'CREAMi Breeze'}}" value="CREAMi Breeze">CREAMi Breeze</mat-chip-option>
                 </mat-chip-listbox>
             </div>
-            <mat-list *ngIf="selectedNinjaProduct === 'deluxe'" role="list">
+            <mat-list *ngIf="selectedProduct === 'CREAMi Deluxe'" role="list">
                 <mat-list-item role="listitem" *ngFor="let ingredient of deluxeCreamiIngredients">
                     {{ingredient}}
                 </mat-list-item>
             </mat-list>
-            <mat-list *ngIf="selectedNinjaProduct === 'original' || selectedNinjaProduct === 'breeze'" role="list">
+            <mat-list *ngIf="selectedProduct === 'CREAMi Original' || selectedProduct === 'CREAMi Breeze'" role="list">
                 <mat-list-item role="listitem" *ngFor="let ingredient of originalCreamiIngredients">
+                    {{ingredient}}
+                </mat-list-item>
+            </mat-list>
+            <mat-list *ngIf="selectedProduct === 'ICE-21'" role="list">
+                <mat-list-item role="listitem" *ngFor="let ingredient of ice21Ingredients">
                     {{ingredient}}
                 </mat-list-item>
             </mat-list>
