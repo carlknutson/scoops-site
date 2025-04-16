@@ -16,6 +16,3 @@ steps:
 notes:
   - date: 03/13/24
     text: Increase amount of banana and pb fit.
-score:
-  texture: 18
-  flavor: 10

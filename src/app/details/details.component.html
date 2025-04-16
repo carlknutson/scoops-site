@@ -1,6 +1,6 @@
 <mat-card class="example-card" >
     <mat-card-header>
-        <mat-card-title>{{pintDetails?.name}} </mat-card-title>
+        <mat-card-title title="{{medal_description}}">{{pintDetails?.name}} {{medal}}</mat-card-title>
         <mat-card-subtitle>{{getPintTypeCardLabel(pintType)}}</mat-card-subtitle>
     </mat-card-header>
     <div id="details-image-container">
@@ -12,7 +12,6 @@
     </mat-button-toggle-group>
     <mat-card-content id="card-content">
         <div *ngIf="group.value === 'ingredients'">
-            <mat-card-subtitle *ngIf="pintDetails?.score">Score: {{calculateScore()}} - Appearance: {{pintDetails?.score?.appearance}}/25 - Flavor: {{pintDetails?.score?.flavor}}/25 - Texture: {{pintDetails?.score?.texture}}/25 - Aftertaste: {{pintDetails?.score?.aftertaste}}/25</mat-card-subtitle>
             <div id="product">
                 <mat-card-subtitle *ngIf="!selectedNinjaProduct">
                     Choose your Ninja Creami Product: 

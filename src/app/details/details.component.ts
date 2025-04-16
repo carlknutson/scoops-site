@@ -12,6 +12,9 @@ import { MatListModule } from '@angular/material/list';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { MatChipsModule } from '@angular/material/chips';
 import {create, all} from 'mathjs'
+import { PINTS } from '../data';
+import { Pint } from '../pint';
+
 
 @Component({
   selector: 'app-details',
@@ -22,6 +25,7 @@ import {create, all} from 'mathjs'
   styleUrl: './details.component.css'
 })
 export class DetailsComponent implements OnInit {
+  pints = PINTS
 
   constructor(
     private route: ActivatedRoute,
@@ -34,6 +38,9 @@ export class DetailsComponent implements OnInit {
 
   originalCreamiIngredients: string[] = []
   deluxeCreamiIngredients: string[] = []
+
+  medal: string = '';
+  medal_description: string = ''
   
   selectedNinjaProduct: CreamiProductType | undefined
 
@@ -66,7 +73,22 @@ export class DetailsComponent implements OnInit {
         this.originalCreamiIngredients = this.pintDetails.ingredients
         this.deluxeCreamiIngredients = this.convertIngredients(CreamiProductType.original, CreamiProductType.deluxe, this.pintDetails.ingredients)
       }
+
+      [this.medal, this.medal_description] = this.getMedalAndDescription(this.pintName, this.pints)
+      console.log(this.medal)
     });
+  }
+
+  getMedalAndDescription(name: string, pints: Pint[]): [string, string] {
+    const index = pints.findIndex(p => p.urlName === name);
+    if (index === -1) return ['',''];
+  
+    const percentile = index / pints.length;
+  
+    if (percentile <= 0.10) return ['🥇', 'Top 10% of ' + pints.length];
+    else if (percentile <= 0.25) return ['🥈', 'Top 25% of ' + pints.length];
+    else if (percentile <= 0.5) return ['🥉', 'Top 50% of ' + pints.length];
+    else return ['',''];
   }
 
   convertIngredients(fromPint: CreamiProductType, toPint: CreamiProductType, ingredients: string[]): string[] {
