@@ -14,7 +14,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Freeze the Pint';
+  title = 'Churnlog';
 
   constructor(public router: Router, private location: Location) {}
 
