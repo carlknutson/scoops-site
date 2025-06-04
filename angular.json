@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "churnlog": {
+    "scoops-site": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/churnlog",
+            "outputPath": "dist/scoops-site",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -59,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "churnlog:build:production"
+              "buildTarget": "scoops-site:build:production"
             },
             "development": {
-              "buildTarget": "churnlog:build:development"
+              "buildTarget": "scoops-site:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -70,7 +70,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "churnlog:build"
+            "buildTarget": "scoops-site:build"
           }
         },
         "test": {

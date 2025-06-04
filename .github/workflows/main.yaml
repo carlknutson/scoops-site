@@ -1,4 +1,4 @@
-name: Deploy Churnlog
+name: Deploy scoops-site
 
 on:
   push:
@@ -18,9 +18,9 @@ jobs:
         with:
           node-version: '20.x'
       - name: Install and build
-        run: npm install && npm run gh-build && cp dist/churnlog/browser/index.html dist/churnlog/browser/404.html
+        run: npm install && npm run gh-build && cp dist/scoops-site/browser/index.html dist/scoops-site/browser/404.html
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           branch: gh-pages
-          folder: dist/churnlog/browser/
+          folder: dist/scoops-site/browser/
